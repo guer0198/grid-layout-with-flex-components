@@ -35,8 +35,14 @@ body {
   .emoji {
       padding: 20px;
       margin: 8px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
   }
 
-  a{
-      text-align: center;
+  span{
+      order: -1;
+      margin: auto;
   }
+
+
